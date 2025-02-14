@@ -1,7 +1,5 @@
-/* Base Styles */
 :root {
     --primary-color: rgba(51, 102, 204, 1);
-    --primary-dark: rgba(41, 82, 163, 1);
     --text-color: rgba(255, 255, 255, 1);
     --light-gray: rgba(26, 26, 26, 1);
     --dark-gray: rgba(153, 153, 153, 1);
@@ -46,7 +44,6 @@
     padding: 0 1.5rem;
   }
   
-  /* Header & Navigation */
   .header {
     position: fixed;
     top: 0;
@@ -88,11 +85,10 @@
     color: var(--primary-color);
   }
   
-  /* Hero Section */
   .hero {
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-                url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48');
+    url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -129,7 +125,6 @@
     background: var(--primary-dark);
   }
   
-  /* About Section */
   .about {
     padding: var(--section-spacing) 0;
     background: #000000;
@@ -167,7 +162,6 @@
     left: 0;
   }
   
-  /* Services Section */
   .services {
     padding: var(--section-spacing) 0;
     background: var(--light-gray);
@@ -213,7 +207,6 @@
     color: var(--dark-gray);
   }
   
-  /* Contact Section */
   .contact {
     padding: var(--section-spacing) 0;
     background: #000000;
@@ -255,11 +248,10 @@
     border-radius: 10px;
   }
   
-  /* Footer */
   .footer {
     background: var(--light-gray);
     color: var(--white);
-    padding: 4rem 0 2rem;
+    padding: 1rem 0 1rem;
   }
   
   .footer-content {
@@ -299,12 +291,8 @@
     border-top: 1px solid rgba(255, 255, 255, 0.1);
   }
   
-  .footer-bottom p {
-    color: var(--dark-gray);
-    font-size: 0.9rem;
-  }
+ 
   
-  /* Responsive Design for Footer */
   @media (max-width: 768px) {
     .footer-content {
       flex-direction: column;
@@ -317,8 +305,7 @@
       flex-wrap: wrap;
     }
   }
-  
-  /* Responsive Design */
+ 
   @media (max-width: 768px) {
     .nav-links {
       display: none;
