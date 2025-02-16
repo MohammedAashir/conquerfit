@@ -284,13 +284,6 @@
   .footer-links a:hover {
     color: var(--primary-color);
   }
-  
-  .footer-bottom {
-    text-align: center;
-    padding-top: 2rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-  }
-  
  
   
   @media (max-width: 768px) {
